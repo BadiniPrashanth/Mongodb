@@ -1,0 +1,43 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hello{
+    /* background-color: red; */
+    background-image: url('./Images/blurr.webp');
+    background-size: cover;
+}
+
+@media (max-width:850px) {
+    .section1{
+        display: block;
+        text-align: center;
+    }
+    .section2{
+        text-align: center;
+    }
+    .section2 input{
+        width: 200px;
+        
+    }
+    .section2 .signup{
+        margin-top: -5px;
+        margin-right: 150px;
+    }
+    .section2 .login{
+        margin-top: 50px;
+        margin-right: 150px;
+    }
+    .sidebar{
+        margin-left: -20px;
+        width: 50px;
+    }
+    .sidebar .username{
+        position: relative;
+        right: 10px;
+        font-size: 12px;
+    }
+}
+
+
